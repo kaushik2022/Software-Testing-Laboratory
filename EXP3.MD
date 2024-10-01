@@ -17,26 +17,70 @@ Write a python program to check the number is prime or not and inspect for failu
 
 ### Program:
 ```
-a=int(input("Enter the number:"))
-if a>1:
-	for i in range(2,a):
-		if a%i==0:
-			print("It is not prime number")
-			break
-	else:
-		 print("It is a prime number")
+num = input()
+
+flag = 0
+
+# Check if the input is numeric
+if num.isnumeric():
+    z = int(num)
+
+    # Special case for number 2
+    if z == 2:
+        flag = 1
+
+    # For numbers greater than 2
+    elif z > 2:
+        for i in range(2, z // 2 + 1):  # Loop from 2 to z//2
+            if z % i == 0:  # If divisible, it's not prime
+                flag = 0
+                break
+        else:  # If no factors were found, it's prime
+            flag = 1
+
+    # Check the flag to determine if it's prime
+    if flag == 1:
+        print("Prime Number")
+    else:
+        print("Not a Prime Number")
 else:
-	print("It is not a prime number")
+    print("Enter a Positive Number")
+
 ```
 
 
 
+
 ### Output:
+```
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 6
+Not a Prime Number
 
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: say
+Enter a Positive Number
 
-![Screenshot 2024-09-27 110757](https://github.com/user-attachments/assets/d0487c2c-1eb0-4f80-946b-970fca74d0d5)
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: *65
+Enter a Positive Number
 
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: -98
+Enter a Positive Number
 
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 0
+Not a Prime Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number: 123456
+Not a Prime Number
+
+C:\Users\SEC\Desktop\stl>python3 primeno.py
+Enter a number:
+Enter a Positive Number
+```
 
 ### Result:
 Thus, the python program to check the number is prime or not is implemented and the output is verified successfully.
