@@ -1,7 +1,7 @@
 # Ex.No: 1 Write programs in Python Language to demonstrate the working of followingconstructs with possible test cases: a) do…while b) while…do c) if …else d) switch e) for 
 
-### DATE:                                                                           
-### REGISTER NUMBER : 212222040061
+### DATE:                                                                      
+### REGISTER NUMBER : 212222040115
 
 ### AIM:  
 To write python programs for do…while, while, for, switch and if…else and test with possible test 
@@ -54,17 +54,21 @@ else:
 ### iii.) switch 
 
 ```
-def switch():
-    switcher={
- 0:"even",
-  1:"odd"
-}
-n=input('Enter a value for N: ') try:
-  n=int(n)
-  print(switcher[n%2])
-except ValueError:
-   print("Enter a valid number.")
-switch() 
+def switch(): 
+    switcher = { 
+        0: "even", 
+        1: "odd" 
+    }
+    
+    n = input('Enter a value for N: ')
+    
+    try: 
+        n = int(n) 
+        print(switcher[n % 2]) 
+    except ValueError: 
+        print("Enter a valid number.") 
+
+switch()
 
 ```
 
@@ -114,128 +118,24 @@ iterate()
 ### Output:
 
 ### i.)do…while: 
-```
-Positive numbers
-Enter a positive value for START: 1
-Enter a positive value for END: 4
-1 2 3 4 
 
-Negative numbers
-Enter a positive value for START: -10
-Enter a positive value for END: 5 Enter
-a valid positive number. 
-
-Character and string input
-Enter a positive value for START: hello
-Enter a positive value for END: y
-Enter a valid positive number. 
-
-Null input
-Enter a positive value for START:
-Enter a positive value for END:
-Enter a valid positive number. 
-```
-
+![STL EX01 (a) OUTPUT](https://github.com/user-attachments/assets/9a8f4b9c-d372-484a-b0f2-6ced35765083)
 
 ### ii.) while…do 
-```
-Positive numbers
-Enter a positive value for START: 1
-Enter a positive value for END: 4
-1 2 3 4 
 
-
-Negative numbers
-Enter a positive value for START: -10
-Enter a positive value for END: 5 Enter
-a valid positive number. 
-
-
-Character and string input
-Enter a positive value for START: abc
-Enter a positive value for END: 100
-Enter a valid positive number. 
-
-
-Null input
-Enter a positive value for START:
-Enter a positive value for END:
-Enter a valid positive number. 
-
-
-```
-
+![STL EX01 (b) OUTPUT](https://github.com/user-attachments/assets/99e1f3bb-7990-460e-9d4b-4937f01392ed)
 
 ### iii.) switch 
-```
-Positive numbers
-Enter a value for N: 1
-odd
 
-Negative numbers
-Enter a value for N: -10
-even
-
-
-Character and string input
-Enter a value for N: hello
-Enter a valid number.
-
-
-Null input
-Enter a value for N:
-Enter a valid number. 
-
-```
+![STL EX01 (c) OUTPUT](https://github.com/user-attachments/assets/a2a1ee35-6c9e-400c-9fcd-d87b5456d592)
 
 ### iv.) if else
-```
 
-Positive numbers
-Enter a value for A: 1
-Enter a value for B: 1
-A is equal to B.
-
-
-Negative numbers
-Enter a value for A: -10
-Enter a value for B: 5 B
-is greater than A.
-
-
-Character and string input
-Enter a value for A: hello
-Enter a value for B: y
-Enter a valid number.
-
-
-Null input
-Enter a value for A:
-Enter a value for B:
-Enter a valid number. 
-```
-
+![STL EX01 (d) OUTPUT](https://github.com/user-attachments/assets/d98ce0d1-55ca-4615-9111-d2f97f821bb0)
 
 ### v.) for 
-```
-Characters
-Enter a string: say
-115 97 121
 
-Number
-Enter a string: 1543
-49 53 52 51
-
-Null input
-Enter a string: 
-```
-
-
-
-
-
-
-
+![STL EX01 (e) OUTPUT](https://github.com/user-attachments/assets/7c5170fb-e5f1-44b3-81c8-a48ae8bb8576)
 
 ### Result:
 Thus, the python program to demonstrate the working of given constructs is implemented and the output is verified successfully.
