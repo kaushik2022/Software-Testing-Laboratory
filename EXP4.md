@@ -48,7 +48,8 @@ else:
 
 ### Output:
 
-![image](https://github.com/user-attachments/assets/46d639fc-81c1-4c74-a153-6b696fdb7dc9)
+
+![op 4](https://github.com/user-attachments/assets/cefc0e69-f82e-4a25-b924-f7ea7b6e9303)
 
 
 
