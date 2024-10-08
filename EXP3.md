@@ -53,33 +53,8 @@ else:
 
 ### Output:
 ```
-C:\Users\SEC\Desktop\stl>python3 primeno.py
-Enter a number: 6
-Not a Prime Number
+![op 3](https://github.com/user-attachments/assets/8c29e506-7ed2-4779-a322-0d23a6c032c7)
 
-C:\Users\SEC\Desktop\stl>python3 primeno.py
-Enter a number: say
-Enter a Positive Number
-
-C:\Users\SEC\Desktop\stl>python3 primeno.py
-Enter a number: *65
-Enter a Positive Number
-
-C:\Users\SEC\Desktop\stl>python3 primeno.py
-Enter a number: -98
-Enter a Positive Number
-
-C:\Users\SEC\Desktop\stl>python3 primeno.py
-Enter a number: 0
-Not a Prime Number
-
-C:\Users\SEC\Desktop\stl>python3 primeno.py
-Enter a number: 123456
-Not a Prime Number
-
-C:\Users\SEC\Desktop\stl>python3 primeno.py
-Enter a number:
-Enter a Positive Number
 ```
 
 ### Result:
