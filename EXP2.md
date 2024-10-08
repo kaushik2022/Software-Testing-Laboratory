@@ -89,15 +89,7 @@ else:
 
 
 ### Output:
-
-```
-![op 2](https://github.com/user-attachments/assets/9a68e5a3-76ac-473a-aed8-9e44e1c0c86c)
-
-```
-
-
-
-
+![op 2](https://github.com/user-attachments/assets/c9570c69-f04a-4214-8c41-7006a7b85c94)
 
 
 ### Result:
