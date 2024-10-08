@@ -55,40 +55,7 @@ except ValueError:
 
 ```
 ### Output:
-```
-PS C:\Users\SEC\Desktop\web\exp2> python -u "c:\Users\SEC\Desktop\web\exp2\exp5.py"
-Enter the element to be searched: 2
-Element is present at index 0
-
-PS C:\Users\SEC\Desktop\web\exp2> python -u "c:\Users\SEC\Desktop\web\exp2\exp5.py"
-Enter the element to be searched: 5
-Element is not present in array
-
-PS C:\Users\SEC\Desktop\web\exp2> python -u "c:\Users\SEC\Desktop\web\exp2\exp5.py"
-Enter the element to be searched: 10
-Element is present at index 3
-
-PS C:\Users\SEC\Desktop\web\exp2> python -u "c:\Users\SEC\Desktop\web\exp2\exp5.py"
-Enter the element to be searched: ddf
-Enter a valid input!
-
-PS C:\Users\SEC\Desktop\web\exp2> python -u "c:\Users\SEC\Desktop\web\exp2\exp5.py"
-Enter the element to be searched:  
-Enter a valid input!
-
-PS C:\Users\SEC\Desktop\web\exp2> python -u "c:\Users\SEC\Desktop\web\exp2\exp5.py"
-Enter the element to be searched: %
-Enter a valid input!
-
-PS C:\Users\SEC\Desktop\web\exp2> python -u "c:\Users\SEC\Desktop\web\exp2\exp5.py"
-Enter the element to be searched: 20
-Element is not present in array
-
-PS C:\Users\SEC\Desktop\web\exp2> python -u "c:\Users\SEC\Desktop\web\exp2\exp5.py"
-Enter the element to be searched: 3
-Element is present at index 1
-```
-
+![op 5](https://github.com/user-attachments/assets/87967243-5c2b-4c91-970e-145795a54a0b)
 
 ### Result:
 Thus, the python program to check the number is Armstrong number or not implemented and the output is verified successfully.
