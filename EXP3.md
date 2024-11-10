@@ -53,7 +53,7 @@ else:
 
 ### Output:
 ```
-![op 3](https://github.com/user-attachments/assets/8c29e506-7ed2-4779-a322-0d23a6c032c7)
+![STL EX03 OUTPUT](https://github.com/user-attachments/assets/857283d8-57fe-4321-8e96-c9387ef6e6d0)
 
 ```
 
