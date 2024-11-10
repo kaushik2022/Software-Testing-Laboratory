@@ -1,7 +1,8 @@
 # Ex.No: 3 To check the number is prime or not and inspect for failures.
  
-### DATE:27/08/2024                                                                            
-### REGISTER NUMBER : 212222040061
+### DATE: 27-08-2024                                                                           
+### REGISTER NUMBER : 212222040064
+
 ### AIM: 
 Write a python program to check the number is prime or not and inspect for failures.
  
@@ -52,10 +53,9 @@ else:
 
 
 ### Output:
-```
+
 ![STL EX03 OUTPUT](https://github.com/user-attachments/assets/857283d8-57fe-4321-8e96-c9387ef6e6d0)
 
-```
 
 ### Result:
 Thus, the python program to check the number is prime or not is implemented and the output is verified successfully.
